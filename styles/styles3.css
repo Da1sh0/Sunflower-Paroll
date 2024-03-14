@@ -1,0 +1,94 @@
+:root {
+    --color1: #FEFFBF;
+    --color2: #FCDCDF;
+    --color3: #F498C2;
+    --color4: #C997C6;
+    --color5: #B0EFEF;
+    --color6: #83D9DC;
+}
+
+*{
+    font-family: 'Comic Sans MS', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(image/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div {
+    background-color: var(--color1);
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table caption {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+}
+.table a {
+    text-decoration: none;
+    color:  var(--color3);
+}
+
+.table a:hover {
+    color:  var(--color4);
+}
+
+.tittleImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tittleImg img {
+    margin-bottom: 10px;
+    margin: 0 10px; 
+}
+
+.btn {
+    align-items: center;
+    background-color: #B0EFEF;
+    color: #C997C6;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 15px;
+    width: 200px;
+}
+.btn:hover {
+    background-color: #83D9DC;
+    color: #FCDCDF;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
